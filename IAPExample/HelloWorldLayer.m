@@ -10,7 +10,7 @@
 // Import the interfaces
 #import "HelloWorldLayer.h"
 
-// Needed to obtain the Navigation Controller
+// Needed to obtain the  Navigation Controller
 #import "AppDelegate.h"
 
 #pragma mark - HelloWorldLayer
