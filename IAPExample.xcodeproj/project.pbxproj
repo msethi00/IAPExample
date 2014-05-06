@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		536F842A19180D3F00BFABE9 /* RestorePreviousPurchaseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 536F842819180D3F00BFABE9 /* RestorePreviousPurchaseButton.png */; };
+		536F842B19180D3F00BFABE9 /* RestorePreviousPurchaseButtonTouched.png in Resources */ = {isa = PBXBuildFile; fileRef = 536F842919180D3F00BFABE9 /* RestorePreviousPurchaseButtonTouched.png */; };
+		536F842F1918141C00BFABE9 /* MBProgressHUD.mm in Sources */ = {isa = PBXBuildFile; fileRef = 536F842E1918141C00BFABE9 /* MBProgressHUD.mm */; };
+		53AA97241913FAD000612AB2 /* WhiteBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 53AA97231913FAD000612AB2 /* WhiteBox.png */; };
+		53AA97351914037800612AB2 /* IAPHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA97271914037800612AB2 /* IAPHelper.mm */; };
+		53AA97361914037800612AB2 /* IAPHelperWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA97291914037800612AB2 /* IAPHelperWrapper.mm */; };
+		53AA97371914037800612AB2 /* NSData+RRTransactionParsingAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA972B1914037800612AB2 /* NSData+RRTransactionParsingAdditions.mm */; };
+		53AA97381914037800612AB2 /* RRBase64Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA972D1914037800612AB2 /* RRBase64Manager.m */; };
+		53AA97391914037800612AB2 /* RRTransactionVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA972F1914037800612AB2 /* RRTransactionVerifier.m */; };
+		53AA973A1914037800612AB2 /* RRVerificationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA97311914037800612AB2 /* RRVerificationController.mm */; };
+		53AA973B1914037800612AB2 /* Reachability.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA97341914037800612AB2 /* Reachability.mm */; };
+		53AA97481914041400612AB2 /* GMCCLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA97451914041400612AB2 /* GMCCLayer.mm */; };
+		53AA97491914041400612AB2 /* GMMenuObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA97471914041400612AB2 /* GMMenuObject.mm */; };
+		53AA9753191406B700612AB2 /* GMAnalytics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA9752191406B700612AB2 /* GMAnalytics.mm */; };
+		53AA975A191409A100612AB2 /* GMAppManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AA9757191409A100612AB2 /* GMAppManager.mm */; };
+		53AA975C1914249800612AB2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA975B1914249800612AB2 /* StoreKit.framework */; };
+		53AA975E191424C300612AB2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA975D191424C300612AB2 /* CoreData.framework */; };
+		53AA9760191424FB00612AB2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA975F191424FB00612AB2 /* CoreTelephony.framework */; };
+		53AA97621914251200612AB2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA97611914251200612AB2 /* CFNetwork.framework */; };
+		53AA97641914252300612AB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA97631914252300612AB2 /* CoreLocation.framework */; };
+		53AA97661914253000612AB2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA97651914253000612AB2 /* MobileCoreServices.framework */; };
+		53AA97681914257500612AB2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA97671914257500612AB2 /* SystemConfiguration.framework */; };
+		53AA976A1914259A00612AB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA97691914259A00612AB2 /* Security.framework */; };
+		53AA976D19142B4A00612AB2 /* MoreKeysButtonBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = 53AA976B19142B4A00612AB2 /* MoreKeysButtonBlank.png */; };
+		53AA976E19142B4A00612AB2 /* MoreKeysButtonBlankTouched.png in Resources */ = {isa = PBXBuildFile; fileRef = 53AA976C19142B4A00612AB2 /* MoreKeysButtonBlankTouched.png */; };
 		53DDB87F191176D30016C979 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DDB87E191176D30016C979 /* QuartzCore.framework */; };
 		53DDB881191176D30016C979 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DDB880191176D30016C979 /* OpenGLES.framework */; };
 		53DDB883191176D30016C979 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DDB882191176D30016C979 /* OpenAL.framework */; };
@@ -142,6 +167,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		536F842819180D3F00BFABE9 /* RestorePreviousPurchaseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RestorePreviousPurchaseButton.png; path = Drawings/RestorePurchase/RestorePreviousPurchaseButton.png; sourceTree = SOURCE_ROOT; };
+		536F842919180D3F00BFABE9 /* RestorePreviousPurchaseButtonTouched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RestorePreviousPurchaseButtonTouched.png; path = Drawings/RestorePurchase/RestorePreviousPurchaseButtonTouched.png; sourceTree = SOURCE_ROOT; };
+		536F842D1918141C00BFABE9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		536F842E1918141C00BFABE9 /* MBProgressHUD.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MBProgressHUD.mm; sourceTree = "<group>"; };
+		53AA97231913FAD000612AB2 /* WhiteBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteBox.png; path = Drawings/WhiteBox/WhiteBox.png; sourceTree = SOURCE_ROOT; };
+		53AA97261914037800612AB2 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		53AA97271914037800612AB2 /* IAPHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IAPHelper.mm; sourceTree = "<group>"; };
+		53AA97281914037800612AB2 /* IAPHelperWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelperWrapper.h; sourceTree = "<group>"; };
+		53AA97291914037800612AB2 /* IAPHelperWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IAPHelperWrapper.mm; sourceTree = "<group>"; };
+		53AA972A1914037800612AB2 /* NSData+RRTransactionParsingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+RRTransactionParsingAdditions.h"; sourceTree = "<group>"; };
+		53AA972B1914037800612AB2 /* NSData+RRTransactionParsingAdditions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSData+RRTransactionParsingAdditions.mm"; sourceTree = "<group>"; };
+		53AA972C1914037800612AB2 /* RRBase64Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBase64Manager.h; sourceTree = "<group>"; };
+		53AA972D1914037800612AB2 /* RRBase64Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBase64Manager.m; sourceTree = "<group>"; };
+		53AA972E1914037800612AB2 /* RRTransactionVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTransactionVerifier.h; sourceTree = "<group>"; };
+		53AA972F1914037800612AB2 /* RRTransactionVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTransactionVerifier.m; sourceTree = "<group>"; };
+		53AA97301914037800612AB2 /* RRVerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRVerificationController.h; sourceTree = "<group>"; };
+		53AA97311914037800612AB2 /* RRVerificationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RRVerificationController.mm; sourceTree = "<group>"; };
+		53AA97331914037800612AB2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		53AA97341914037800612AB2 /* Reachability.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Reachability.mm; sourceTree = "<group>"; };
+		53AA97441914041400612AB2 /* GMCCLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCCLayer.h; sourceTree = "<group>"; };
+		53AA97451914041400612AB2 /* GMCCLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GMCCLayer.mm; sourceTree = "<group>"; };
+		53AA97461914041400612AB2 /* GMMenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMMenuObject.h; sourceTree = "<group>"; };
+		53AA97471914041400612AB2 /* GMMenuObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GMMenuObject.mm; sourceTree = "<group>"; };
+		53AA9751191406B700612AB2 /* GMAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAnalytics.h; sourceTree = "<group>"; };
+		53AA9752191406B700612AB2 /* GMAnalytics.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GMAnalytics.mm; sourceTree = "<group>"; };
+		53AA9755191409A100612AB2 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		53AA9756191409A100612AB2 /* GMAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAppManager.h; sourceTree = "<group>"; };
+		53AA9757191409A100612AB2 /* GMAppManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GMAppManager.mm; sourceTree = "<group>"; };
+		53AA9758191409A100612AB2 /* GMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMath.h; sourceTree = "<group>"; };
+		53AA9759191409A100612AB2 /* Notifs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifs.h; sourceTree = "<group>"; };
+		53AA975B1914249800612AB2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		53AA975D191424C300612AB2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53AA975F191424FB00612AB2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		53AA97611914251200612AB2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		53AA97631914252300612AB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		53AA97651914253000612AB2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		53AA97671914257500612AB2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53AA97691914259A00612AB2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		53AA976B19142B4A00612AB2 /* MoreKeysButtonBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MoreKeysButtonBlank.png; path = Drawings/Purchases/MoreKeysButtonBlank.png; sourceTree = SOURCE_ROOT; };
+		53AA976C19142B4A00612AB2 /* MoreKeysButtonBlankTouched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MoreKeysButtonBlankTouched.png; path = Drawings/Purchases/MoreKeysButtonBlankTouched.png; sourceTree = SOURCE_ROOT; };
 		53DDB87B191176D30016C979 /* IAPExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAPExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DDB87E191176D30016C979 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		53DDB880191176D30016C979 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -427,6 +492,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53AA976A1914259A00612AB2 /* Security.framework in Frameworks */,
+				53AA97681914257500612AB2 /* SystemConfiguration.framework in Frameworks */,
+				53AA97661914253000612AB2 /* MobileCoreServices.framework in Frameworks */,
+				53AA97641914252300612AB2 /* CoreLocation.framework in Frameworks */,
+				53AA97621914251200612AB2 /* CFNetwork.framework in Frameworks */,
+				53AA9760191424FB00612AB2 /* CoreTelephony.framework in Frameworks */,
+				53AA975E191424C300612AB2 /* CoreData.framework in Frameworks */,
+				53AA975C1914249800612AB2 /* StoreKit.framework in Frameworks */,
 				53DDB88F191176D30016C979 /* GameKit.framework in Frameworks */,
 				53DDB883191176D30016C979 /* OpenAL.framework in Frameworks */,
 				53DDB889191176D30016C979 /* UIKit.framework in Frameworks */,
@@ -442,6 +515,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		536F842C1918141C00BFABE9 /* MBProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				536F842D1918141C00BFABE9 /* MBProgressHUD.h */,
+				536F842E1918141C00BFABE9 /* MBProgressHUD.mm */,
+			);
+			path = MBProgressHud;
+			sourceTree = "<group>";
+		};
+		53AA97251914037800612AB2 /* IAPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				53AA97261914037800612AB2 /* IAPHelper.h */,
+				53AA97271914037800612AB2 /* IAPHelper.mm */,
+				53AA97281914037800612AB2 /* IAPHelperWrapper.h */,
+				53AA97291914037800612AB2 /* IAPHelperWrapper.mm */,
+				53AA972A1914037800612AB2 /* NSData+RRTransactionParsingAdditions.h */,
+				53AA972B1914037800612AB2 /* NSData+RRTransactionParsingAdditions.mm */,
+				53AA972C1914037800612AB2 /* RRBase64Manager.h */,
+				53AA972D1914037800612AB2 /* RRBase64Manager.m */,
+				53AA972E1914037800612AB2 /* RRTransactionVerifier.h */,
+				53AA972F1914037800612AB2 /* RRTransactionVerifier.m */,
+				53AA97301914037800612AB2 /* RRVerificationController.h */,
+				53AA97311914037800612AB2 /* RRVerificationController.mm */,
+			);
+			path = IAPHelper;
+			sourceTree = "<group>";
+		};
+		53AA97321914037800612AB2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				53AA97331914037800612AB2 /* Reachability.h */,
+				53AA97341914037800612AB2 /* Reachability.mm */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		53AA97431914041400612AB2 /* GMCocos2d */ = {
+			isa = PBXGroup;
+			children = (
+				53AA97441914041400612AB2 /* GMCCLayer.h */,
+				53AA97451914041400612AB2 /* GMCCLayer.mm */,
+				53AA97461914041400612AB2 /* GMMenuObject.h */,
+				53AA97471914041400612AB2 /* GMMenuObject.mm */,
+			);
+			path = GMCocos2d;
+			sourceTree = "<group>";
+		};
+		53AA9750191406B700612AB2 /* GMAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				53AA9751191406B700612AB2 /* GMAnalytics.h */,
+				53AA9752191406B700612AB2 /* GMAnalytics.mm */,
+			);
+			path = GMAnalytics;
+			sourceTree = "<group>";
+		};
+		53AA9754191409A100612AB2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				53AA9755191409A100612AB2 /* AppConfig.h */,
+				53AA9756191409A100612AB2 /* GMAppManager.h */,
+				53AA9757191409A100612AB2 /* GMAppManager.mm */,
+				53AA9758191409A100612AB2 /* GMath.h */,
+				53AA9759191409A100612AB2 /* Notifs.h */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		53DDB872191176D30016C979 = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +604,14 @@
 		53DDB87D191176D30016C979 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53AA97691914259A00612AB2 /* Security.framework */,
+				53AA97671914257500612AB2 /* SystemConfiguration.framework */,
+				53AA97651914253000612AB2 /* MobileCoreServices.framework */,
+				53AA97631914252300612AB2 /* CoreLocation.framework */,
+				53AA97611914251200612AB2 /* CFNetwork.framework */,
+				53AA975F191424FB00612AB2 /* CoreTelephony.framework */,
+				53AA975D191424C300612AB2 /* CoreData.framework */,
+				53AA975B1914249800612AB2 /* StoreKit.framework */,
 				53DDB87E191176D30016C979 /* QuartzCore.framework */,
 				53DDB880191176D30016C979 /* OpenGLES.framework */,
 				53DDB882191176D30016C979 /* OpenAL.framework */,
@@ -478,6 +628,12 @@
 		53DDB890191176D30016C979 /* IAPExample */ = {
 			isa = PBXGroup;
 			children = (
+				536F842C1918141C00BFABE9 /* MBProgressHud */,
+				53AA9754191409A100612AB2 /* Settings */,
+				53AA9750191406B700612AB2 /* GMAnalytics */,
+				53AA97431914041400612AB2 /* GMCocos2d */,
+				53AA97251914037800612AB2 /* IAPHelper */,
+				53AA97321914037800612AB2 /* Reachability */,
 				53DDBA1E191176D60016C979 /* AppDelegate.h */,
 				53DDBA1F191176D60016C979 /* AppDelegate.m */,
 				53DDBA21191176D60016C979 /* HelloWorldLayer.h */,
@@ -494,6 +650,11 @@
 		53DDB891191176D30016C979 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				536F842819180D3F00BFABE9 /* RestorePreviousPurchaseButton.png */,
+				536F842919180D3F00BFABE9 /* RestorePreviousPurchaseButtonTouched.png */,
+				53AA97231913FAD000612AB2 /* WhiteBox.png */,
+				53AA976B19142B4A00612AB2 /* MoreKeysButtonBlank.png */,
+				53AA976C19142B4A00612AB2 /* MoreKeysButtonBlankTouched.png */,
 				53DDB892191176D30016C979 /* Default.png */,
 				53DDB894191176D30016C979 /* Default@2x.png */,
 				53DDB896191176D30016C979 /* Default-568h@2x.png */,
@@ -923,12 +1084,17 @@
 			files = (
 				53DDB8A3191176D30016C979 /* Icon.png in Resources */,
 				53DDB9FE191176D60016C979 /* ChangeLog in Resources */,
+				53AA97241913FAD000612AB2 /* WhiteBox.png in Resources */,
+				53AA976E19142B4A00612AB2 /* MoreKeysButtonBlankTouched.png in Resources */,
+				536F842A19180D3F00BFABE9 /* RestorePreviousPurchaseButton.png in Resources */,
 				53DDB895191176D30016C979 /* Default@2x.png in Resources */,
 				53DDB89F191176D30016C979 /* Icon-Small.png in Resources */,
 				53DDB89B191176D30016C979 /* Icon-72.png in Resources */,
 				53DDB893191176D30016C979 /* Default.png in Resources */,
+				536F842B19180D3F00BFABE9 /* RestorePreviousPurchaseButtonTouched.png in Resources */,
 				53DDB89D191176D30016C979 /* Icon-Small-50.png in Resources */,
 				53DDB8A8191176D30016C979 /* iTunesArtwork in Resources */,
+				53AA976D19142B4A00612AB2 /* MoreKeysButtonBlank.png in Resources */,
 				53DDB8A1191176D30016C979 /* Icon-Small@2x.png in Resources */,
 				53DDB899191176D30016C979 /* Default-Landscape~ipad.png in Resources */,
 				53DDB897191176D30016C979 /* Default-568h@2x.png in Resources */,
@@ -945,6 +1111,7 @@
 			files = (
 				53DDB8E7191176D40016C979 /* ccDeprecated.m in Sources */,
 				53DDB9B2191176D60016C979 /* ccCArray.m in Sources */,
+				53AA973B1914037800612AB2 /* Reachability.mm in Sources */,
 				53DDB8F9191176D40016C979 /* ccGLStateCache.m in Sources */,
 				53DDB952191176D50016C979 /* ccShaders.m in Sources */,
 				53DDB9A8191176D60016C979 /* CCWindow.m in Sources */,
@@ -955,18 +1122,21 @@
 				53DDBA26191176D60016C979 /* IntroLayer.m in Sources */,
 				53DDB8C5191176D40016C979 /* CCActionManager.m in Sources */,
 				53DDB8F0191176D40016C979 /* CCDrawNode.m in Sources */,
+				53AA97381914037800612AB2 /* RRBase64Manager.m in Sources */,
 				53DDBA04191176D60016C979 /* matrix.c in Sources */,
 				53DDB9A2191176D50016C979 /* CCEventDispatcher.m in Sources */,
 				53DDB8B3191176D30016C979 /* CCActionCatmullRom.m in Sources */,
 				53DDB918191176D40016C979 /* CCNode+Debug.m in Sources */,
 				53DDB9CB191176D60016C979 /* TransformUtils.m in Sources */,
 				53DDBA06191176D60016C979 /* mat3.c in Sources */,
+				53AA97361914037800612AB2 /* IAPHelperWrapper.mm in Sources */,
 				53DDB90B191176D40016C979 /* CCLayer.m in Sources */,
 				53DDB93A191176D50016C979 /* CCScene.m in Sources */,
 				53DDB97F191176D50016C979 /* CCTransitionPageTurn.m in Sources */,
 				53DDB8F3191176D40016C979 /* ccFPSImages.m in Sources */,
 				53DDB9AF191176D60016C979 /* CCArray.m in Sources */,
 				53DDB8CE191176D40016C979 /* CCActionTiledGrid.m in Sources */,
+				53AA97481914041400612AB2 /* GMCCLayer.mm in Sources */,
 				53DDB927191176D50016C979 /* CCParticleSystem.m in Sources */,
 				53DDB915191176D40016C979 /* CCMotionStreak.m in Sources */,
 				53DDB90F191176D40016C979 /* CCMenu.m in Sources */,
@@ -980,11 +1150,13 @@
 				53DDB973191176D50016C979 /* CCTMXObjectGroup.m in Sources */,
 				53DDB990191176D50016C979 /* CCES2Renderer.m in Sources */,
 				53DDB9DC191176D60016C979 /* CDXMacOSXSupport.m in Sources */,
+				53AA97371914037800612AB2 /* NSData+RRTransactionParsingAdditions.mm in Sources */,
 				53DDB958191176D50016C979 /* CCSpriteBatchNode.m in Sources */,
 				53DDB8B0191176D30016C979 /* CCActionCamera.m in Sources */,
 				53DDB9D0191176D60016C979 /* ZipUtils.m in Sources */,
 				53DDB994191176D50016C979 /* CCGLView.m in Sources */,
 				53DDB9BE191176D60016C979 /* CCVertex.m in Sources */,
+				53AA97491914041400612AB2 /* GMMenuObject.mm in Sources */,
 				53DDB8B9191176D30016C979 /* CCActionGrid.m in Sources */,
 				53DDB8CB191176D40016C979 /* CCActionProgressTimer.m in Sources */,
 				53DDB964191176D50016C979 /* CCTextureAtlas.m in Sources */,
@@ -992,9 +1164,11 @@
 				53DDB8AD191176D30016C979 /* CCAction.m in Sources */,
 				53DDB92A191176D50016C979 /* CCParticleSystemQuad.m in Sources */,
 				53DDB979191176D50016C979 /* CCTMXXMLParser.m in Sources */,
+				53AA975A191409A100612AB2 /* GMAppManager.mm in Sources */,
 				53DDB982191176D50016C979 /* CCTransitionProgress.m in Sources */,
 				53DDB998191176D50016C979 /* CCTouchDispatcher.m in Sources */,
 				53DDB95E191176D50016C979 /* CCSpriteFrameCache.m in Sources */,
+				53AA97391914037800612AB2 /* RRTransactionVerifier.m in Sources */,
 				53DDB986191176D50016C979 /* cocos2d.m in Sources */,
 				53DDB8BC191176D30016C979 /* CCActionGrid3D.m in Sources */,
 				53DDB9A5191176D60016C979 /* CCGLView.m in Sources */,
@@ -1004,6 +1178,7 @@
 				53DDB96A191176D50016C979 /* CCTexturePVR.m in Sources */,
 				53DDB91E191176D50016C979 /* CCParallaxNode.m in Sources */,
 				53DDBA16191176D60016C979 /* vec3.c in Sources */,
+				53AA973A1914037800612AB2 /* RRVerificationController.mm in Sources */,
 				53DDB912191176D40016C979 /* CCMenuItem.m in Sources */,
 				53DDB976191176D50016C979 /* CCTMXTiledMap.m in Sources */,
 				53DDB8DA191176D40016C979 /* CCAtlasNode.m in Sources */,
@@ -1021,6 +1196,7 @@
 				53DDB94F191176D50016C979 /* CCShaderCache.m in Sources */,
 				53DDB92D191176D50016C979 /* CCPhysicsDebugNode.m in Sources */,
 				53DDB967191176D50016C979 /* CCTextureCache.m in Sources */,
+				53AA97351914037800612AB2 /* IAPHelper.mm in Sources */,
 				53DDBA20191176D60016C979 /* AppDelegate.m in Sources */,
 				53DDB9DF191176D60016C979 /* CDXPropertyModifierAction.m in Sources */,
 				53DDBA0A191176D60016C979 /* neon_matrix_impl.c in Sources */,
@@ -1030,6 +1206,7 @@
 				53DDBA12191176D60016C979 /* utility.c in Sources */,
 				53DDB8E0191176D40016C979 /* CCClippingNode.m in Sources */,
 				53DDB9BA191176D60016C979 /* ccUtils.c in Sources */,
+				536F842F1918141C00BFABE9 /* MBProgressHUD.mm in Sources */,
 				53DDB9B5191176D60016C979 /* CCFileUtils.m in Sources */,
 				53DDB9D9191176D60016C979 /* CDOpenALSupport.m in Sources */,
 				53DDB930191176D50016C979 /* CCPhysicsSprite.mm in Sources */,
@@ -1047,6 +1224,7 @@
 				53DDB8DD191176D40016C979 /* CCCamera.m in Sources */,
 				53DDB99B191176D50016C979 /* CCTouchHandler.m in Sources */,
 				53DDB93D191176D50016C979 /* CCScheduler.m in Sources */,
+				53AA9753191406B700612AB2 /* GMAnalytics.mm in Sources */,
 				53DDB8D7191176D40016C979 /* CCAnimationCache.m in Sources */,
 				53DDB9E2191176D60016C979 /* CocosDenshion.m in Sources */,
 				53DDB9C4191176D60016C979 /* NSThread+performBlock.m in Sources */,
@@ -1159,6 +1337,7 @@
 				53DDBA2B191176D60016C979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

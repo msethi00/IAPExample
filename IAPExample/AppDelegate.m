@@ -10,6 +10,8 @@
 
 #import "AppDelegate.h"
 #import "IntroLayer.h"
+#import "GMAppManager.h"
+
 
 @implementation MyNavigationController
 
@@ -62,7 +64,10 @@
 	// Create the main window
 	window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
-	
+	gmAppManager = [GMAppManager sharedAppManager];
+    [gmAppManager loadSavedData];
+    
+    
 	// CCGLView creation
 	// viewWithFrame: size of the OpenGL view. For full screen use [_window bounds]
 	//  - Possible values: any CGRect
@@ -144,6 +149,8 @@
 {
 	if( [navController_ visibleViewController] == director_ )
 		[director_ pause];
+    
+    [gmAppManager saveAllData];
 }
 
 // call got rejected
@@ -152,6 +159,8 @@
 	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];	
 	if( [navController_ visibleViewController] == director_ )
 		[director_ resume];
+    
+    [gmAppManager loadSavedData];
 }
 
 -(void) applicationDidEnterBackground:(UIApplication*)application
